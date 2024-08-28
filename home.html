@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./Styles.css">
+</head>
+<body>
+    <header class="header">
+        <img class="presentacion__imagen" src="./Imagenes/Logoalura.png" alt="Logo Alura">
+    </header>
+    <h1 class="presentacion__titulo">¡Bienvenido al encriptador de texto!</h1>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <div class="presentacion__texto">
+                <textarea class="introduccion__texto" id="query" name="query" placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+            <div class="presentacion__imagen__advertencia">
+            <p class="advertencia__imagen">
+                <img src="./Imagenes/Frame 1Advertencia.png" alt="Advertencia">
+            </p>
+            </div>
+            <div class="presentacion__enlaces">
+            <a href="#" class="presentacion__enlace__encriptar">Encriptar</a>
+            <a href="#" class="presentacion__enlace__desencriptar">Desencriptar</a>
+            </div>
+        </section>
+        <section class="presentacion__mensaje">
+            <div>
+                <img class="persona__buscando" src="./Imagenes/Muñeco.png" alt="persona_buscando">
+                <p class="mensaje__encriptado">
+                    Ningún mensaje fue encontrado
+                </p>
+                 <p class="mensaje__encriptacion">
+                Ingresa el texto que deseas encriptar o desencriptar
+                </p>
+                <button class="boton__copiar" style="display: none;">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Quitze Balam Ortiz Mares el 24 de agosto 2024</p>
+        <a class="presentacion__enlaces__personales" href="https://www.instagram.com/_quitze_/">Instagram</a>
+        <span>|</span>
+        <a class="presentacion__enlaces__personales" href="https://www.linkedin.com/in/quitze-balam/">LinkedIn</a>
+    </footer>
+    <script src="./encriptador.js"></script>
+</body>
+</html>
